@@ -48,7 +48,10 @@ section.filters button:hover {
     font-size: 14px;
     margin: 0 0 0 0;
 }
-.locations h3, .amenities h3 {
+.locations h3, .locations h4 {
+    padding-left: 25%;
+}
+.amenities h3, .amenities h4 {
     padding-left: 25%;
 }
 .popover {
