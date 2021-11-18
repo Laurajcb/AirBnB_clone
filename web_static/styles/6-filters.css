@@ -35,7 +35,6 @@ section.filters button:hover {
 .locations, .amenities {
     height: 100%;
     width: 25%;
-    padding-left: 50px;
 }
 .locations{
     border-right: 1px solid #DDDDDD;
@@ -48,6 +47,9 @@ section.filters button:hover {
     font-weight: 400;
     font-size: 14px;
     margin: 0 0 0 0;
+}
+.locations h3, .locations h4 {
+    padding: 50%;
 }
 .popover {
     position: absolute;
