@@ -29,12 +29,7 @@ section.filters button:hover {
 .locations {
     height: 100%;
     width: 25%;
-    border:1px #DDDDDD;
-}
-
-.locations{
     border-right: 1px solid #DDDDDD;
-    width: 25%;
 }
 
 .locations h3, .amenities h3 {
