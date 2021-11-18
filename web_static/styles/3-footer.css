@@ -1,4 +1,4 @@
-footer{
+footer {
     color: white;
     height: 60%;
     width: 100%;
@@ -7,10 +7,9 @@ footer{
     align-items: center;
     justify-content: center;
     position: fixed;
-    bottom: 0;
+    bottom: 0%;
 }
 
 p {
     text-align: center;
-
 }
