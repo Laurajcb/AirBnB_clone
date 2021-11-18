@@ -32,18 +32,16 @@ section.filters button:hover {
     border:1px #DDDDDD;
 }
 
-.locations, .amenities {
-    height: 100%;
-    width: 25%;
-}
 .locations{
     border-right: 1px solid #DDDDDD;
 }
+
 .locations h3, .amenities h3 {
     font-weight: 600;
     margin: 12px 0 5px 0;
     padding-left: 25%;
 }
+
 .locations h4, .amenities h4 {
     font-weight: 400;
     font-size: 14px;
@@ -60,12 +58,15 @@ section.filters button:hover {
     border:solid 1px #DDDDDD;
     list-style-type: none;
 }
+
 .locations:hover .popover, .amenities:hover .popover{
     display: inline-block;
 }
+
 .popover h2 {
     font-size: 16px;
 }
+
 li
 {
 	list-style: none;
