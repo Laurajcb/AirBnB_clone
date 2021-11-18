@@ -47,6 +47,7 @@ section.filters button:hover {
     font-weight: 400;
     font-size: 14px;
     margin: 0 0 0 0;
+    padding-left: 25%;
 }
 
 .popover {
