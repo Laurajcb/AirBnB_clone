@@ -77,6 +77,6 @@ ul.popover {
     padding-left: 0;
 }
 
-ul.popover > h2 {
-    margin-left: 1em;
+ul.popover h2 {
+    margin-left: 17px;
 }
