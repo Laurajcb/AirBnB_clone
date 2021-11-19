@@ -29,12 +29,10 @@ section.filters button:hover {
 .locations {
     height: 100%;
     width: 25%;
-    border:1px #DDDDDD;
-}
-
-.locations {
-    border-right: 1px solid #DDDDDD;
-    width: 25%;
+    border-right: 1px solid #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .locations h3, .amenities h3 {
