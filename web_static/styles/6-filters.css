@@ -1,47 +1,48 @@
-filters {
-    color: #FFFFFF;
+.filters {
+    background-color: white;
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
-button {
+section.filters button {
     font-size: 18px;
-    background-color: #FF5A4F;
-    color: #FFFFFF;
+    color: white;
+    background-color: #FF5A5F;
     height: 48px;
-    width: 20%;
+    border: 0px;
     border-radius: 4px;
-    margin-top: 10px;
+    width: 20%;
     margin-right: 30px;
     margin-left: auto;
-    border-color: #FF5A4F;
+    opacity: 1;
 }
 
-button:hover {
-    opacity: 90%;
-    cursor: pointer;
+section.filters button:hover {
+    opacity: 0.9;
 }
 
 .locations {
     height: 100%;
     width: 25%;
-    border-right: 1px solid #CCCCCC;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
-.amenities {
-    height: 100%;
+.locations {
+    border-right: 1px solid #DDDDDD;
     width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
+
+.locations h3, .amenities h3 {
+    font-weight: 600;
+    margin: 12px 0 5px 0;
+    padding-left: 25%;
+    width: 25%;
+}
+
 
 .locations:hover, .amenities:hover, li:hover{
     cursor: pointer;
