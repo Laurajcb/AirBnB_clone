@@ -43,38 +43,35 @@ section.filters button:hover {
     width: 25%;
 }
 
-
-.locations:hover, .amenities:hover, li:hover{
-    cursor: pointer;
-}
-
-.popover li  {
-    text-decoration: none;
-    color: #6e6d6d;
-    background-color: #f8f7f7;
-    display: block;
-}
-
-.amenities .popover li  {
-    margin-left: 40px;
+.locations h4, .amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 0 0;
+    padding-left: 25%;
 }
 
 .popover {
-    margin: 0;
-    padding: 0;
-    color: #FAFAFA;
-    background-color: #f8f7f7;
-    width: 250px;
-    border: 1px solid #DDDDDD;
-    border-radius: 4px;
+    position: absolute;
     display: none;
-    position: relative;
+    background-color: #FAFAFA;
+    width: 21%;
+    border-radius: 4px;
+    border:solid 1px #DDDDDD;
+    list-style-type: none;
 }
 
-li {
-    margin: 10px;
+.locations:hover .popover, .amenities:hover .popover{
+    display: inline-block;
 }
 
-.amenities:hover .popover, .locations:hover .popover {
-    display: block;
-} 
+.popover h2 {
+    font-size: 16px;
+}
+
+li
+{
+    list-style: none;
+    margin: 9px;
+    margin-right: 9px;
+    margin-left: 22px;
+}
