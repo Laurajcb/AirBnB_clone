@@ -73,3 +73,10 @@ li
     margin-right: 9px;
     margin-left: 22px;
 }
+ul.popover {
+    padding-left: 0;
+}
+
+ul.popover > h2 {
+    margin-left: 1em;
+}
