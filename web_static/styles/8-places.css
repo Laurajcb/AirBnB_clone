@@ -83,3 +83,8 @@
 .user, .description {
     text-align: left;
 }
+
+.user {
+    padding-top: 10px;
+    font-weight: bold;
+}
