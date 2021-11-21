@@ -12,6 +12,13 @@
     max-width: 80px;
 }
 
+.top {
+    display: flex;
+}
+
+.top h2 {
+    flex: 2;
+}
 .places {
     text-align: center;
 }
@@ -27,8 +34,8 @@
 
 .infomation {
     height: 80px;
-    border-top: #DDDDDD 1px;
-    border-bottom: #DDDDDD 1px;
+    border-top: #DDDDDD solid 1px;
+    border-bottom: #DDDDDD solid 1px;
     display: flex;
     align-items: center;
 }
