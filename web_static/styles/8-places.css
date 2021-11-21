@@ -54,6 +54,7 @@
     background-position: center top;
     height: 60px;
     width: 100px;
+    display: flex;
 }
 
 .number_rooms {
@@ -62,6 +63,7 @@
     background-position: center top;
     height: 60px;
     width: 100px;
+    display: flex;
 }
 
 .number_bathrooms {
@@ -70,5 +72,14 @@
     background-position: center top;
     height: 60px;
     width: 100px;
+    display: flex;
 }
 
+.infomation p {
+    align-self:flex-end;
+    margin: 0 auto;
+}
+
+.user, .description {
+    text-align: left;
+}
