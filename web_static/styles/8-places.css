@@ -1,10 +1,15 @@
 .price_by_night {
     color: #FF5A5F;
-    border-radius:  #FF5A5F 4px;
+    border-radius: solid #FF5A5F 4px;
     min-width: 60px;
     height: 60px;
     font-size: 30px;
     align-items: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px
+;
 }
 
 .places {
