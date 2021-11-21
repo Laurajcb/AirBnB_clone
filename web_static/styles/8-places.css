@@ -25,6 +25,10 @@
     text-align: center;
 }
 
+.places h1{
+    text-align: left;
+}
+
 .place {
     width: 390px;
     padding: 20px;
