@@ -7,3 +7,27 @@
     align-items: right;
 }
 
+.places {
+    text-align: center;
+}
+
+.place {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: solid #FF5A5F 1px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.infomation {
+    height: 80px;
+    border-top: #DDDDDD 1px;
+    border-bottom: #DDDDDD 1px;
+    display: flex;
+    align-items: center;
+}
+
+.infomation div {
+    width: 100px;
+}
